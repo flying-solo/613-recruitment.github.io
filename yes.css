@@ -1,0 +1,21 @@
+.big{
+    height: 100vh;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.yes-title {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(43.979px);
+    border-radius: 1vw;
+    width: 73%;
+    padding: 0.7rem;
+    text-align: center;
+  }
+  @media (min-width: 800px){
+    .yes-title{
+      width: 40%;
+    }
+  }
